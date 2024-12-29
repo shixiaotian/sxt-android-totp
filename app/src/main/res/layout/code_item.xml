@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/User"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/user_id"
+            android:layout_width="0px"
+            android:layout_height="0px"
+            android:layout_gravity="left"
+            android:visibility="invisible"
+            />
+        <TextView
+            android:id="@+id/user_secretKey"
+            android:layout_width="0px"
+            android:layout_height="0px"
+            android:layout_gravity="center_vertical"
+            android:visibility="invisible"
+            />
+        <TextView
+            android:id="@+id/user_issuer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall"
+            android:gravity="center_vertical"
+            android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+            android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+            android:minHeight="?android:attr/listPreferredItemHeightSmall"
+            android:textSize="35sp"
+            android:text="apple"
+            />
+        <TextView
+            android:id="@+id/user_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall"
+            android:gravity="center_vertical"
+            android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+            android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+            android:minHeight="?android:attr/listPreferredItemHeightSmall"
+            android:textSize="25sp"
+            android:text="1234567@qq.com"
+            />
+        <TextView
+            android:id="@+id/user_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:text="665277"
+            android:textSize="55sp"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+</LinearLayout>

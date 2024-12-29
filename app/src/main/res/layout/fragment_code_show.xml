@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/code_show"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#312F2F"
+    tools:context=".fragments.CodeShowFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/showIssuerTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="100px"
+                android:text="steam"
+                android:textColor="#ffffff"
+                android:textColorLink="#FFFFFF"
+                android:textSize="75sp" />
+        <TextView
+            android:id="@+id/showUsernameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="30px"
+            android:text="54526322@qq.com"
+            android:textColor="#ffffff"
+            android:textColorLink="#FFFFFF"
+            android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/showTimeView"
+                android:layout_width="match_parent"
+                android:layout_height="101dp"
+                android:gravity="center"
+                android:background="#312F2F"
+                android:text="30s"
+                android:textColor="#ffffff"
+                android:textColorLink="#FFFFFF"
+                android:layout_marginTop="20px"
+                android:textSize="70sp" />
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:max="100"
+                android:progress="10"
+                android:progressDrawable="@drawable/progress_bar_color" />
+            <TextView
+                android:id="@+id/showCodeView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:freezesText="false"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="50px"
+                android:text="9TXTSY"
+                android:textColor="#ffffff"
+                android:textColorLink="#FFFFFF"
+                android:textSize="80sp" />
+
+        <TextView
+            android:id="@+id/deleteButton"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:background="#20212E"
+            android:gravity="center"
+            android:layout_margin="50px"
+            android:textColor="#ffffff"
+            android:text="Delete"
+            android:textSize="50sp" />
+    </LinearLayout>
+
+</FrameLayout>
